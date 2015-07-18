@@ -1,16 +1,16 @@
-REST API
-1. создать страну POST (restapi/country) postdata = [country]
+п»їREST API
+1. СЃРѕР·РґР°С‚СЊ СЃС‚СЂР°РЅСѓ POST (restapi/country) postdata = [country]
 
-2. создать отель POST (restapi/country/[country]/hotel) postdata = [hotel]
+2. СЃРѕР·РґР°С‚СЊ РѕС‚РµР»СЊ POST (restapi/country/[country]/hotel) postdata = [hotel]
 
-3. список стран GET (restapi/country)
+3. СЃРїРёСЃРѕРє СЃС‚СЂР°РЅ GET (restapi/country)
 
-4. список отелей GET (restapi/country/[country]/hotel)
+4. СЃРїРёСЃРѕРє РѕС‚РµР»РµР№ GET (restapi/country/[country]/hotel)
 
-5. получить инфомрацию об отеле GET (restapi/country/[country]/hotel/[hotel])
+5. РїРѕР»СѓС‡РёС‚СЊ РёРЅС„РѕРјСЂР°С†РёСЋ РѕР± РѕС‚РµР»Рµ GET (restapi/country/[country]/hotel/[hotel])
 
-6. удалить страну POST (restapi/country/[country]) postdata = ""
+6. СѓРґР°Р»РёС‚СЊ СЃС‚СЂР°РЅСѓ POST (restapi/country/[country]) postdata = ""
 
-7. удалить отель POST (restapi/cntry/[country]/hotel/[hotel]) postdata = ""
+7. СѓРґР°Р»РёС‚СЊ РѕС‚РµР»СЊ POST (restapi/cntry/[country]/hotel/[hotel]) postdata = ""
 
-8. обновить информацию об отеле POST (restapi/cntry/[country]/htl/[hotel]) postdata = [information]
+8. РѕР±РЅРѕРІРёС‚СЊ РёРЅС„РѕСЂРјР°С†РёСЋ РѕР± РѕС‚РµР»Рµ POST (restapi/cntry/[country]/htl/[hotel]) postdata = [information]
