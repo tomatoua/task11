@@ -1,16 +1,16 @@
 ﻿REST API
-1. создать страну POST (restapi/country) postdata = [country]
+1. создать страну POST (restapi/country) postdata = [countryname]
 
-2. создать отель POST (restapi/country/[country]/hotel) postdata = [hotel]
+2. создать отель POST (restapi/country/[country]/hotel) postdata = [hotelname]
 
 3. список стран GET (restapi/country)
 
-4. список отелей GET (restapi/country/[country]/hotel)
+4. список отелей GET (restapi/country/[countryname]/hotel)
 
-5. получить инфомрацию об отеле GET (restapi/country/[country]/hotel/[hotel])
+5. получить инфомрацию об отеле GET (restapi/country/[countryname]/hotel/[hotelname])
 
-6. удалить страну POST (restapi/country/[country]) postdata = ""
+6. удалить страну POST (restapi/country/[countryname]) postdata = ""
 
-7. удалить отель POST (restapi/cntry/[country]/hotel/[hotel]) postdata = ""
+7. удалить отель POST (restapi/country/[countryname]/hotel/[hotelname]) postdata = ""
 
-8. обновить информацию об отеле POST (restapi/cntry/[country]/htl/[hotel]) postdata = [information]
+8. обновить информацию об отеле POST (restapi/country/[countryname]/hotel/[hotelname]) postdata = [information]
