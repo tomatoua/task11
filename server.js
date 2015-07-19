@@ -89,14 +89,14 @@ function start() {
                 response.writeHead(200, {"Content-Type": "text/html"});
                 response.write('<head> <meta charset="utf-8"> </head>\
                             REST API \
-                            <p>1. создать страну POST (restapi/country) postdata = [country]</p>\
-                            <p>2. создать отель POST (restapi/country/[country]/hotel) postdata = [hotel] </p> \
+                            <p>1. создать страну POST (restapi/country) postdata = [countryname]</p>\
+                            <p>2. создать отель POST (restapi/country/[countryname]/hotel) postdata = [hotelname] </p> \
                             <p>3. список стран GET (restapi/country) </p> \
-                            <p>4. список отелей GET (restapi/country/[country]/hotel) </p> \
-                            <p>5. получить инфомрацию об отеле GET (restapi/country/[country]/hotel/[hotel]) </p> \
-                            <p>6. удалить страну POST (restapi/country/[country]) postdata = "" </p> \
-                            <p>7. удалить отель POST (restapi/cntry/[country]/hotel/[hotel]) postdata = "" </p> \
-                            <p>8. обновить информацию об отеле POST (restapi/cntry/[country]/htl/[hotel]) postdata = [information] </p> \
+                            <p>4. список отелей GET (restapi/country/[countryname]/hotel) </p> \
+                            <p>5. получить инфомрацию об отеле GET (restapi/country/[countryname]/hotel/[hotelname]) </p> \
+                            <p>6. удалить страну POST (restapi/country/[countryname]) postdata = "" </p> \
+                            <p>7. удалить отель POST (restapi/country/[countryname]/hotel/[hotelname]) postdata = "" </p> \
+                            <p>8. обновить информацию об отеле POST (restapi/country/[country]/hotel/[hotel]) postdata = [information] </p> \
                             <form name="form1" method="post" actin="submit"> \
                                 Enter the text:<br /> \
                                 <textarea name="text" cols="10" rows="1"></textarea> \
